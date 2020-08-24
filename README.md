@@ -1,2 +1,3 @@
-# Parsingfailure
-Keyed container based decoding of dynamic JSON failing using common custom JSONDecoder in Swift
+# Parsefail
+
+A description of this package.

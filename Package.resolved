@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IkigaJSON",
+        "repositoryURL": "https://github.com/Ikiga/IkigaJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "107f2addba0fdbb2c5aa90bce4b1cc7a1e1fbd80",
+          "version": "2.0.3"
+        }
+      },
+      {
+        "package": "JSON",
+        "repositoryURL": "https://github.com/skelpo/JSON.git",
+        "state": {
+          "branch": "master",
+          "revision": "9d82dc664ab0b902b65352a39312ebfc9cb15a82",
+          "version": null
+        }
+      },
+      {
+        "package": "pure-swift-json",
+        "repositoryURL": "https://github.com/fabianfett/pure-swift-json.git",
+        "state": {
+          "branch": "master",
+          "revision": "5dc8ec1d857f3b56e3a718a01165ae80c7677d48",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "cf6f2b1807219643270616e03de697b96c46384c",
+          "version": "2.21.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
