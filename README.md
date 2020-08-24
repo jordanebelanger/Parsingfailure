@@ -1,6 +1,7 @@
 # Parsefail
 
 When using https://github.com/skelpo/JSON to decode dynamic json of an unknown format, the json belows lead to a crash on the two most popular custom (non-foundation) json decoder in Swift.
+
 ```swift
 import Foundation
 import PureSwiftJSON
@@ -29,4 +30,5 @@ print("Pure swift decoded ok")
 let ikigaJSON = try IkigaJSONDecoder().decode(JSON.self, from: data)
 print("Ikiga decoded ok")
 ```
-As the comments describe, the Foundation JSONDecoder can handle the JSON above when decoding it as a skelpo/JSON value but the others do not, seems to be related to `UnkeyedDecodingContainer`.
+
+As described by the comments in the code, the Foundation JSONDecoder can handle the JSON above when decoding it as a skelpo/JSON value but the others do not, seems to be related to `UnkeyedDecodingContainer`.
